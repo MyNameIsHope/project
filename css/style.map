@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../sass/style.sass",
+		"../sass/_header.sass"
+	],
+	"sourcesContent": [
+		"* {\n\tmargin: 0; }\n\n.container {}\n\n\n@import \"header\";\n",
+		".header {}\n\n"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,CAAC,CAAC;EACD,MAAM,EAAE,CAAC;CAAG"
+}

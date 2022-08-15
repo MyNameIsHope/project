@@ -1,0 +1,464 @@
+*
+	margin: 0
+
+header
+	position: relative
+
+nav
+	height: 50px
+	background-color: #212121
+
+.menu
+	display: flex
+	justify-content: space-between
+	padding: 13px 70px
+	margin: 0
+	list-style-type: none
+	&_link
+		color: #111111
+		font-family: Roboto
+		font-size: 15px
+		font-weight: 300
+		text-decoration: none
+	&_item
+		border-right: 2px dotted black
+		padding-right: 38px
+        &:last-child
+            border-right: none
+
+
+
+
+
+.subheader
+	position: absolute
+	width: 100%
+	height: 84px
+	background-color: rgba(0, 0, 0, .6)
+	&_logo
+		display: block
+		max-width: 100%
+		margin-top: 16px
+	&_official
+		margin-top: 6px
+		opacity: 0.5
+		color: #ffffff
+		font-family: "Roboto - Thin"
+		font-size: 13px
+		font-weight: 400
+	&_call
+		padding-left: 20px
+		margin-top: 22px
+		color: #ffffff
+		font-family: Roboto
+		font-size: 12px
+	&_phone
+		display: block
+		margin-top: 5px	
+		color: #ffffff
+		font-family: Roboto
+		font-size: 22px
+		font-weight: 400
+		text-transform: uppercase
+		text-decoration: none
+	&_btn
+		margin-top: 19px
+		width: 172px
+		height: 46px
+		box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12)
+		border: none
+		border-radius: 4px
+		background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%)
+		text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21)
+		color: #ffffff
+		font-family: Roboto
+		font-size: 14px
+		font-weight: 400
+		text-transform: uppercase
+		+btn_hover
+
+	
+.promo
+	min-height: 800px
+	background: url('../img/mainBG.jpg') center (center/cover) no-repeat
+	padding: 151px 0 135px 0
+	&_header
+		margin-top: 67px
+		margin-bottom: 0px
+		color: #fff
+		font-family: "Roboto - Black"
+		font-size: 60px
+		font-weight: 700
+		font-style: normal
+		letter-spacing: normal
+		text-align: center
+	&_subheader
+		margin-top: 8px
+		margin-bottom: 0px
+		color: #fff
+		font-weight: 700
+		text-align: center
+		font-size: 38px
+	&_descr
+		margin-top: 15px
+		color: #ffffff
+		font-size: 18px
+		font-weight: 400
+		text-align: center
+	&_btn
+		display: block
+		margin: 118px auto 0 auto
+		width: 172px
+		height: 46px
+		box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12)
+		border: none
+		border-radius: 4px
+		background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%)
+		text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21)
+		color: #ffffff
+		font-family: Roboto
+		font-size: 14px
+		font-weight: 400
+		text-transform: uppercase
+		+btn_hover
+
+.btn_black
+		margin: 0 auto
+		width: 112px
+		height: 24px
+		padding: 5px 12px
+		background-color: #000000
+		color: #ffffff
+		font-size: 11px
+		font-weight: 400
+		text-align: center
+		text-transform: uppercase
+
+.btn_white
+		position: relative
+		margin: 0 auto
+		width: 112px
+		height: 24px
+		padding: 5px 12px
+		background-color: #fff
+		color: #000
+		font-size: 11px
+		font-weight: 400
+		text-align: center
+		text-transform: uppercase
+		z-index: 3
+
+.title_black
+		color: #222222
+		font-size: 38px
+		font-weight: 700
+		text-align: center
+		text-transform: uppercase
+		margin-top: 38px
+		margin-bottom: 0px
+
+.title_white
+		position: relative
+		color: #fff
+		font-size: 38px
+		font-weight: 700
+		text-align: center
+		text-transform: uppercase
+		margin-top: 38px
+		margin-bottom: 0px
+		z-index: 3
+
+
+.subtitle
+	margin-top: 19px
+	color: #222222
+	font-size: 17px
+	font-weight: 400
+	text-align: center
+
+.subtitle_white	
+	position: relative	
+	margin-top: 19px
+	color: #fff
+	font-size: 17px
+	font-weight: 400
+	text-align: center
+	z-index: 3
+
+
+
+.worck
+	padding: 71px 0 65px 0
+	&_all_circle
+		display: flex
+		justify-content: center
+		align-items: space-between
+		margin-top: 35px
+
+	&_circle
+		display: flex
+		justify-content: center
+		align-items: center
+		width: 113px
+		height: 113px
+		margin-top: 10px
+		margin-right: 26px
+		font-family: "Roboto - Regular"
+		background-color: #1eacc7
+		border-radius: 100%
+	&_all
+
+		width: 343px
+	&_title
+		color: #1eacc7
+		font-family: "Roboto - Regular"
+		font-size: 17px
+		font-weight: 400
+		line-height: 21px
+
+	&_text
+		color: #202020
+		font-family: "Roboto - Light"
+		font-weight: 300
+		font-size: 15px
+		line-height: 21px
+
+
+
+
+.mobile
+	min-height: 864px
+	padding: 48px 0 79px 0
+	background: url('../img/bgwith.jpg') center (center/cover) no-repeat
+	.row
+		margin-top: 32px
+	&_item
+		position: relative
+		width: 320px
+		height: 280px
+		opacity: 0.9
+		margin: 0 auto
+		margin-bottom: 19px
+		padding-top: 92px
+		&_1
+			background: url('../img/1.jpg') center (center/cover) no-repeat
+		&_2
+			background: url('../img/2.jpg') center (center/cover) no-repeat
+		&_3
+			background: url('../img/3.jpg') center (center/cover) no-repeat
+		&_4
+			background: url('../img/4.jpg') center (center/cover) no-repeat
+		&_5
+			background: url('../img/5.jpg') center (center/cover) no-repeat
+		&_6
+			background: url('../img/6.jpg') center (center/cover) no-repeat
+		&_subtitle
+			color: #ffffff
+			font-size: 24px
+			font-weight: 400
+			line-height: 31px
+			text-align: center
+			text-transform: uppercase
+		&_plus
+			display: flex
+			justify-content: center
+			justify-items: center
+			position: absolute
+			bottom: 35px
+			left: 50%
+			transform: translateX(-50%)
+			width: 26px
+			height: 26px
+			background-color: #000000
+			margin: 0 auto
+			border-radius: 100%
+			padding: 6px
+			cursor: pointer
+			&::before
+				content: ''
+				display: block
+				position: absolute
+				transform: translateY(-50%)
+				bottom: 45%
+				width: 14px
+				height: 2px
+				background-color: $main-color
+			&:after
+				content: ''
+				position: absolute
+				left: 50%
+				transform: translateX(-50%)
+				height: 14px
+				width: 2px
+				background-color: $main-color
+			&:hover
+				&::before, &::after
+					background-color: $second-color
+					transition: 0.3s all
+					
+
+
+
+
+
+.car
+	position: relative
+	min-height: 832px
+	padding: 57px 0 138px 0
+	background: url('../img/bgwith.jpg') center (center/cover) no-repeat
+	&_img
+		position: relative
+		display: block
+		margin: 56px auto 0 auto
+		z-index: 2
+	&_text
+		color: #222222
+		font-size: 17px
+		font-weight: 300
+		letter-spacing: normal
+		line-height: 24px
+		text-align: center
+	.black
+		position: absolute 
+		top: 0
+		left: 0
+		height: 499px
+		width: 100%
+		background-color: #070716
+		z-index: 1
+
+
+.require
+	padding: 68px 0 84px 0
+	&_block
+		margin: 33px 0
+		&_nmb
+			margin-bottom: 0px
+	&_title
+		color: #1ca8c3
+		font-family: "Roboto - Regular"
+		font-size: 22px
+		font-weight: 400
+	&_list
+		list-style-type: none
+		padding-left: 50px
+		margin-top: 22px
+	li
+		position: relative
+		font-size: 17px
+		font-weight: 300
+		line-height: 24px
+		margin-bottom: 10px
+		&::before
+			content: ''
+			position: absolute
+			display: block
+			left: -32px
+			top: 3px
+			width: 21px
+			height: 20px
+			background: url('../icons/blu.png') center (center/cover) no-repeat
+	&_descr
+		margin-top: 25px
+		font-style: 17px
+		font-weight: 300
+		line-height: 24px
+		color: #1ca8c3
+	.warning
+		.require_title
+			color: $second-color
+		.require_list
+			li
+				&::before
+					background: url('../icons/red.png') center (center/cover) no-repeat
+
+
+
+.map
+	padding: 49px 0 49px 0
+	min-height: 717px
+	background: url('../img/footerBG.jpg') center (center/cover) no-repeat
+	&_desrc
+		display: block
+		text-decoration: none
+		color: #1fbad6
+		font-size: 15px
+		font-weight: 400
+		text-transform: uppercase
+		text-align: center
+		margin-top: 654px
+		
+
+
+
+footer
+	padding: 14px 23px 39px 23px
+	a
+		text-decoration: none
+		&:hover
+			text-decoration: underline
+			
+.footer
+	&_divider
+		width: 50px
+		height: 4px
+		background-color: #1fbad6
+		margin: 0 auto
+	&_wrapper
+		display: flex
+		justify-content: space-between
+		align-items: flex-start
+		padding-top: 32px
+	&_wrapper > div
+		width: 33%
+		&:nth-child(3)
+			display: flex
+			justify-content: flex-end
+	&_social
+		width: 155px
+		display: flex
+		justify-content: space-between
+		&_item
+			display: flex
+			justify-content: center
+			align-items: center
+			width: 32px
+			height: 32px
+			background-color: #070716
+			border-radius: 100%
+			i
+				color: #fff
+	&_links
+		width: 405px
+		margin: 0 auto
+		&_main
+			display: flex
+			justify-content: space-between
+			padding: 0 5px
+			color: #fff
+			a
+				color: #070716
+				font-size: 15px
+				font-weight: 300
+				text-transform: uppercase
+		&_sub
+			display: flex
+			justify-content: space-between
+			margin-top: 10px
+			a
+				color: #999
+				font-size: 11px
+				font-weight: 300
+				text-transform: uppercase
+		&_lang
+			display: block
+			margin: 0 auto
+			color: #1fbad6
+			font-size: 11px
+			font-weigth: 400
+			margin-top: 19px
+			text-transform: uppercase
+			text-align: center
+	&_mobile
+		margin-top: 5px
+
